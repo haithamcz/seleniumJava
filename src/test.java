@@ -14,7 +14,7 @@ public class test {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		System.setProperty("webdriver.chrome.driver", "/Users/helloworld/downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", “pathtoyourchromedriver/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://www.linkedin.com/");
 	}
